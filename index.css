@@ -1,0 +1,86 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    padding: 2px;
+
+}
+
+h1{
+    padding-top: 10px;
+    background-color: aqua;
+    display: inline;
+    color: black;
+     height: 4rem;
+     line-height: 4rem;
+     margin-bottom: 5px;
+     text-decoration: underline;
+     padding: 1rem;
+     border-radius:1rem;
+}
+
+
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.choice{
+    border-radius: 50%;
+    height: 190px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choices{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    gap:4rem;
+    margin-top:6rem 
+}
+
+.choice:hover{
+    background-color:rgb(22, 61, 177);
+     cursor: pointer;
+}
+
+.score-bord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top:3rem ;
+    gap:4rem;
+}
+
+#user-score ,#comp-score{
+    font-size: 4rem;
+}
+
+
+.mesg-container{
+    margin-top: 4rem;
+}
+#msg{
+    font-size: 3rem;
+    background-color: rgb(43, 16, 221);
+    display: inline;
+    color:white;
+    padding: 1rem;
+    border-radius:1rem;
+}
+
+.page{
+    border: solid rgb(217, 38, 234) 10px;
+    background-image:url(./images/game.jpg);
+    background-size:cover ;
+    border-radius: 5px;
+}
